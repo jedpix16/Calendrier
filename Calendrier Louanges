@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier 11-24 Mai 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .day {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background: #fafafa;
+        }
+        .day:hover {
+            background: #e3f2fd;
+        }
+        .day span {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .write-area {
+            height: 60px;
+            border: none;
+            width: 100%;
+            resize: none;
+            font-size: 14px;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        .write-area:focus {
+            outline: 2px solid #64b5f6;
+        }
+    </style>
+</head>
+<body>
+    <div class="calendar">
+        <div class="day">
+            <span>11 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>12 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>13 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>14 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>15 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>16 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>17 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>18 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>19 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>20 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>21 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>22 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>23 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+        <div class="day">
+            <span>24 Mai</span>
+            <textarea class="write-area" placeholder="Écrivez ici..."></textarea>
+        </div>
+    </div>
+</body>
+</html>
+
